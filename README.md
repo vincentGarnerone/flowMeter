@@ -1,7 +1,7 @@
 # flowMeter
 Record flow meter data
 
-In order to record data from the flow meter with a small time step, we need to use two tools: Hterm to set the flow meter and our own script to get the data sent by the flow meter and record them in a csv file.
+In order to record data from the flow meter with a small time step, we need to use two tools: Hterm to set up the flow meter and our own script to get the data sent by the flow meter and record them in a csv file.
 
 1)	Download Hterm : https://www.der-hammer.info/pages/terminal.html
 	This allows serial communication with the flow meter.
