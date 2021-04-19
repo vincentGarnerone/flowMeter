@@ -30,7 +30,7 @@ In order to record data from the flow meter with a small time step, we need to u
 
 3)	Open the connection, choose a time step, put the pulling mode, hit the “Disconnect” button.
 
-4)	With a Python script named “RecordFlowmeter.py” we can now get the values sent by the flow meter and record them in a csv file. You can run it in Spyder from 		Anaconda, for example. Feel free to improve the script.
+4)	With a Python script named “RecordFlowmeter.py” we can now get the values sent by the flow meter and record them in a csv file.
 
 5) 	When running the script, a window opens. Choose the number of iterations and hit “Start record”. This will create a csv file named according to the time and record
  	the data.
