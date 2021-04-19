@@ -26,7 +26,7 @@ In order to record data from the flow meter with a small time step, we need to u
 		
 	A$$W91=30 : set up the time step value to 30ms. Be careful, going too little can result in a bug, minimum advice would be 20ms.
 		
-	if more commands are needed you can reach Matthias boularot: matthias.boularot@analyt-mtc.com
+	If more commands are needed you can reach Matthias boularot: matthias.boularot@analyt-mtc.com
 
 3)	Open the connection, choose a time step, put the pulling mode, hit the “Disconnect” button.
 
