@@ -4,11 +4,11 @@ Record flow meter data
 In order to record data from the flow meter with a small time step, we need to use two tools: Hterm to set up the flow meter and our own script to get the data sent by the flow meter and record them in a csv file.
 
 1)	Download Hterm : https://www.der-hammer.info/pages/terminal.html
-	This allows serial communication with the flow meter.
-	Baud=19200
-	Port=15
-	Newline at: CR
-	Send on enter at : CR
+	This allows serial communication with the flow meter. Adviced configuaration:
+	Baud=19200,
+	Port=15,
+	Newline at: CR,
+	Send on enter at : CR,
 	Ascii
 
 2)	When connected, commands can be send to the flowmeter with the interface:
