@@ -6,27 +6,27 @@ In order to record data from the flow meter with a small time step, we need to u
 1)	Download Hterm : https://www.der-hammer.info/pages/terminal.html
 	This allows serial communication with the flow meter. Adviced configuaration:
 	
-		Baud=19200
+	Baud=19200
 	
-		Port=15 or other
+	Port=15 or other
 	
-		Newline at: CR
+	Newline at: CR
 	
-		Send on enter at : CR
+	Send on enter at : CR
 	
-		Ascii
+	Ascii
 
 2)	When connected, commands can be send to the flowmeter with the interface:
-3)	
-		*@=@ : streaming mode
+	
+	*@=@ : streaming mode
+	
+	*@=A : pulling mode
 		
-		*@=A : pulling mode
+	A$$R91 : read the time step value
 		
-		A$$R91 : read the time step value
+	A$$W91=30 : set up the time step value to 30ms. Be careful, going too little can result in a bug, minimum advice would be 20ms.
 		
-		A$$W91=30 : set up the time step value to 30ms. Be careful, going too little can result in a bug, minimum advice would be 20ms.
-		
-		if more commands are needed you can reach Matthias boularot: matthias.boularot@analyt-mtc.com
+	if more commands are needed you can reach Matthias boularot: matthias.boularot@analyt-mtc.com
 
 3)	Open the connection, choose a time step, put the pulling mode, hit the “Disconnect” button.
 
