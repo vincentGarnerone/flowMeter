@@ -28,7 +28,7 @@ In order to record data from the flow meter with a small time step, we need to u
 		
 	If more commands are needed you can reach Matthias boularot: matthias.boularot@analyt-mtc.com
 
-3)	Open the connection, choose a time step, put the pulling mode, hit the “Disconnect” button.
+3)	Open the connection, choose a time step, put the streaming mode, hit the “Disconnect” button.
 
 4)	With a Python script named “RecordFlowmeter.py” we can now get the values sent by the flow meter and record them in a csv file. (If prefer, you can work with the code 		CommunicationS358Python.py which work with no graphic interface)
 
