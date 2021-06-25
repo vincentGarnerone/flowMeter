@@ -36,7 +36,7 @@ def btn1():
     with open(fileName, 'w', newline='') as csvfile:
         spamwriter = csv.writer(csvfile, dialect='excel')
         # write the column titles
-        spamwriter.writerow(["timestamp" ,"pressure", "temperature", "volFlow", "massFlow"])
+        spamwriter.writerow(["timestamp" ,"pressure", "temperature", "volFlow", "standFlow"])
         # get the number of iteration chosen
         numberIteration = e1.get()
         for i in range(int(numberIteration)):
