@@ -26,14 +26,16 @@ In order to record data from the flow meter with a small time step, we need to u
 		
 	A$$W91=30 : set up the time step value to 30ms. Be careful, going too little can result in a bug, minimum advice would be 20ms.
 		
-3)	Open the connection, choose a time step, put the streaming mode, hit the “Disconnect” button.
+3)	**Open the connection, choose a time step, put back the streaming mode, hit the “Disconnect” button.**
 
 4)	With a Python script named “RecordFlowmeter.py” we can now get the values sent by the flow meter and record them in a csv file. (If prefer, you can work with the code 		CommunicationS358Python.py which work with no graphic interface)
 
-5) 	When running the script, a window opens. Choose the number of iterations and hit “Start record”. This will create a csv file named according to the time and record
+5) 	**Spyder** can be used to run the script. When the script is open, **hit the play** button to run it.
+
+6) 	When running the script, a window opens. Choose the number of iterations and hit **“Start record”**. This will create a csv file named according to the time and record
  	the data.
 
-6)	The most common error happening is :
+7)	The most common error happening is :
 	SerialException: could not open port 'COM15': PermissionError(13, 'Access is denied.', None, 5)
 	That means the serial is still connected, and is not possible to create a new connection.
 	Try to close the connection, by for example unplugging the USB.
